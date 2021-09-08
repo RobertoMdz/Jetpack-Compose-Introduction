@@ -14,9 +14,7 @@ Jetpack Write general topics. This repository contains other branches that cover
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="170" 
   height="300" />
-  <video width="300" height="170" controls>
-    <source src="https://user-images.githubusercontent.com/61483018/132592403-608fda58-899a-4d09-8cea-a019f5a68b86.mov" type="video/mp4">
-  </video>
+  https://user-images.githubusercontent.com/61483018/132592830-d93fb0cb-5a8f-4a00-95dc-8629c94de183.mov
 </p>
 
 
