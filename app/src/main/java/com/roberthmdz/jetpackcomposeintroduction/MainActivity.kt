@@ -10,6 +10,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
+import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -28,7 +29,11 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun SimpleComposable() {
-    var num by remember { mutableStateOf(0) }
+    // This implementation lost the state when mobile screen change to landscape
+       //var num by remember { mutableStateOf(0) }
+
+    // This implementation save the counter state and not lose it
+    var num by rememberSaveable { mutableStateOf(0) }
 
     Column {
         
