@@ -14,8 +14,13 @@ Jetpack Write general topics. This repository contains other branches that cover
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="170" 
   height="300" />
-  https://user-images.githubusercontent.com/61483018/132592830-d93fb0cb-5a8f-4a00-95dc-8629c94de183.mov
+  <img src="https://i.postimg.cc/HLpGNcL8/states-recomposition.png" 
+  width="170" 
+  height="300" />
 </p>
+
+## Screen Recordings
+1. [StatesAndRecomposition](https://user-images.githubusercontent.com/61483018/132592830-d93fb0cb-5a8f-4a00-95dc-8629c94de183.mov)
 
 
 
