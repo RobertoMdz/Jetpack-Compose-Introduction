@@ -3,8 +3,7 @@ package com.roberthmdz.jetpackcomposeintroduction
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxHeight
+import androidx.compose.foundation.layout.*
 import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
@@ -12,6 +11,7 @@ import androidx.compose.runtime.remember
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.saveable.rememberSaveable
 import androidx.compose.runtime.setValue
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
@@ -39,16 +39,24 @@ fun SimpleComposable() {
         
         Text(text = "Conteo: $num")
         Divider(thickness = 20.dp, color = Color.Transparent)
-        Counter(
-            textButton = "Incrementar",
-            onClick = {
-            num++
-        })
-        Counter(
-            textButton = "Decrementar",
-            onClick = {
-            num--
-        })
+        Row(
+            modifier = Modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly
+        ) {
+
+            Counter(
+                textButton = "Incrementar",
+                onClick = {
+                    num++
+                })
+            Counter(
+                textButton = "Decrementar",
+                onClick = {
+                    num--
+                })
+
+        }
+
 
     }
 }
