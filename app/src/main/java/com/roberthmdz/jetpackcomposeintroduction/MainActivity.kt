@@ -27,8 +27,8 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun SimpleComposable() {
-
     val checkBoxState = remember{ mutableStateOf(false) }
+
     Column(
         modifier = Modifier.fillMaxHeight()
     ) {
@@ -38,12 +38,10 @@ fun SimpleComposable() {
             checked = checkBoxState.value,
             onCheckedChange = {
                 checkBoxState.value = !checkBoxState.value
-
             }
         )
 
     }
-
 
 }
 
