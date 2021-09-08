@@ -12,11 +12,11 @@ Jetpack Write general topics. This repository contains other branches that cover
  
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
   width="150" 
-  height="350" />
+  height="300" />
  
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="150" 
-  height="350" />
+  height="300" />
   
 </p>
 
