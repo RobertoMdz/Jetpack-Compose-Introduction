@@ -39,15 +39,27 @@ fun SimpleComposable() {
         
         Text(text = "Conteo: $num")
         Divider(thickness = 20.dp, color = Color.Transparent)
-        Button(
-            onClick = { num++ }
-        ) {
-            Text(text = "Actualizar conteo")
-        }
+        Counter(
+            textButton = "Incrementar",
+            onClick = {
+            num++
+        })
+        Counter(
+            textButton = "Decrementar",
+            onClick = {
+            num--
+        })
 
     }
+}
 
-
+@Composable
+fun Counter(textButton: String, onClick: () -> Unit) {
+    Button(
+        onClick = { onClick() }
+    ) {
+        Text(text = textButton)
+    }
 }
 
 
