@@ -9,11 +9,11 @@ Jetpack Write general topics. This repository contains other branches that cover
 ## Previews
 <p float="left">
   
-  <p 1. Constraints/>
+ 
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
   width="150" 
   height="350" />
-  <p 2. Row and Columns/>
+ 
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="150" 
   height="350" />
