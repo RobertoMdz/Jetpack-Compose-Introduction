@@ -8,14 +8,18 @@ Jetpack Write general topics. This repository contains other branches that cover
 
 ## Previews
 <p float="left">
+  <div>
   <p>Constraints</p>
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
   width="170" 
   height="300" />
+  </div>
+  <div>
   <p>Row and Columns</p>
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="170" 
   height="300" />
+  </div>
 </p>
 
 
