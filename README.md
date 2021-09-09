@@ -18,7 +18,7 @@ Jetpack Write general topics. This repository contains other branches that cover
   <img src="https://i.postimg.cc/HLpGNcL8/states-recomposition.png" 
   width="170" 
   height="300" />
-  <img src=" https://i.postimg.cc/c4KdGLch/basic-components.png" 
+  <img src="https://i.postimg.cc/c4KdGLch/basic-components.png" 
   width="170" 
   height="300" />
 </p>
