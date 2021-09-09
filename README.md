@@ -5,6 +5,7 @@ Jetpack Write general topics. This repository contains other branches that cover
 1. Row and Columns in Jetpack Compose
 2. Constraint Layouts in Jetpack Compose 
 3. Jetpack Compose States and Recomposition (State Hoisting)
+4. Basic Components
 
 ## Previews
 <p float="left">
@@ -15,6 +16,9 @@ Jetpack Write general topics. This repository contains other branches that cover
   width="170" 
   height="300" />
   <img src="https://i.postimg.cc/HLpGNcL8/states-recomposition.png" 
+  width="170" 
+  height="300" />
+  <img src=" https://i.postimg.cc/c4KdGLch/basic-components.png" 
   width="170" 
   height="300" />
 </p>
