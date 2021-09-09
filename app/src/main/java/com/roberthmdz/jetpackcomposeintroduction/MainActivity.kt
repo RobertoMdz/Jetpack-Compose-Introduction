@@ -3,17 +3,27 @@ package com.roberthmdz.jetpackcomposeintroduction
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.material.Checkbox
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.foundation.Image
+import androidx.compose.foundation.layout.*
+import androidx.compose.material.*
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
+import androidx.compose.runtime.setValue
+import androidx.compose.runtime.getValue
+import androidx.compose.runtime.saveable.rememberSaveable
+import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.FontStyle
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import com.roberthmdz.jetpackcomposeintroduction.ui.theme.JetpackComposeIntroductionTheme
 
 class MainActivity : ComponentActivity() {
@@ -27,19 +37,61 @@ class MainActivity : ComponentActivity() {
 
 @Composable
 fun SimpleComposable() {
-    val checkBoxState = remember{ mutableStateOf(false) }
+
+    var textFieldValue by remember{ mutableStateOf("") }
+    var textValue by remember { mutableStateOf("") }
 
     Column(
-        modifier = Modifier.fillMaxHeight()
+        modifier = Modifier
+            .fillMaxHeight()
+            .padding(bottom = 16.dp),
+        verticalArrangement = Arrangement.SpaceBetween,
+        horizontalAlignment = Alignment.CenterHorizontally
     ) {
 
-        Text(text = "Hola mundo")
-        Checkbox(
-            checked = checkBoxState.value,
-            onCheckedChange = {
-                checkBoxState.value = !checkBoxState.value
-            }
+        Image(
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(200.dp),
+            painter = painterResource(id = R.drawable.mountain),
+            contentDescription = "Mountain image",
+            contentScale = ContentScale.FillWidth
         )
+        
+        Text(
+            modifier = Modifier.fillMaxWidth(),
+            text = textValue,
+            style = TextStyle(
+                color = Color.Green,
+                fontSize = 28.sp,
+                fontStyle = FontStyle.Italic,
+                fontWeight = FontWeight.Black,
+                textAlign = TextAlign.Center
+            )
+        )
+
+        TextField(
+            value = textFieldValue,
+            onValueChange = { text -> textFieldValue = text} ,
+            label = {
+                Text(text = "Type something")
+            },
+            leadingIcon = {
+                Icon(
+                    painter = painterResource(id = R.drawable.ic_android),
+                    contentDescription = "Leading icon",
+                )
+            }
+
+        )
+
+        Button(
+            onClick = {
+                textValue = textFieldValue
+            }
+        ) {
+            Text(text = "Apply")
+        }
 
     }
 
