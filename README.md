@@ -1,5 +1,5 @@
 # Jetpack-Compose-Introduction
-Jetpack Write general topics. This repository contains other branches that cover specific Jetpack Compose topics.
+Jetpack Compose general topics. This repository contains other branches that cover specific Jetpack Compose topics.
 
 ## Jetpack Compose Topics
 1. Row and Columns in Jetpack Compose
