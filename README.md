@@ -5,7 +5,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 1. Row and Columns in Jetpack Compose
 2. Constraint Layouts in Jetpack Compose 
 3. Jetpack Compose States and Recomposition (State Hoisting)
-4. Basic Components (butons, images, text inputs, text)
+4. Basic Components (buttons, images, text inputs, text)
 
 ## Previews
 <p float="left">
