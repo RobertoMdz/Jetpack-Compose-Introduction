@@ -7,7 +7,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 3. Jetpack Compose States and Recomposition (State Hoisting)
 4. Basic Components (buttons, images, text inputs, text)
 
-## Previews
+## Topics Previews
 <p float="left">
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
   width="170" 
