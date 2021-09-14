@@ -21,7 +21,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
   height="300" />
   <img src="https://i.postimg.cc/c4KdGLch/basic-components.png" 
   width="170" 
-  height="300" />
+  height="300"/>
   <img src="https://i.postimg.cc/GpkFm2nT/lists.png" 
   width="170" 
   height="300"/>
