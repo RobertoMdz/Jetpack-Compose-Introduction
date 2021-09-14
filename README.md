@@ -24,7 +24,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
   height="300" />
   <img src="https://i.postimg.cc/GpkFm2nT/lists.png" 
   width="170" 
-  height="300" />
+  height="300"/>
 </p>
 <p float="left">
   <img src="https://i.postimg.cc/GpkFm2nT/lists.png" 
