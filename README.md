@@ -12,7 +12,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 <p float="left">
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
   width="170" 
-  height="300" />
+  height="300"/>
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="170" 
   height="300"/>
