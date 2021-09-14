@@ -15,7 +15,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
   height="300" />
   <img src="https://i.postimg.cc/QdKZ5GyV/row-columns.png" 
   width="170" 
-  height="300" />
+  height="300"/>
   <img src="https://i.postimg.cc/HLpGNcL8/states-recomposition.png" 
   width="170" 
   height="300"/>
