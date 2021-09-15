@@ -1,8 +1,6 @@
 # Jetpack-Compose-Introduction
 Jetpack Compose general topics. This repository contains other branches that cover specific topics.
 
-
-
 ## Jetpack Compose Topics
 1. Row and Columns in Jetpack Compose
 2. Constraint Layouts in Jetpack Compose 
