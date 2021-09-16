@@ -8,7 +8,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 4. Basic Components (buttons, images, text inputs, text)
 5. Lists (LazyColumn, LazyRow)
 6. Interoperability (linking activity and fragments with compose)
-7. Navigation Compose (passing string argument)
+7. Navigation Compose (passing argument)
 
 ## Topics Previews
 <p float="left">
