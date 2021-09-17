@@ -9,6 +9,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 5. Lists (LazyColumn, LazyRow)
 6. Interoperability (linking activity and fragments with compose)
 7. Navigation Compose (passing argument)
+8. Bottom Navigation Bar
 
 ## Topics Previews
 <p float="left">
@@ -27,11 +28,11 @@ Jetpack Compose general topics. This repository contains other branches that cov
   <img src="https://i.postimg.cc/GpkFm2nT/lists.png" 
   width="170" 
   height="300"/>
-  <img src="https://user-images.githubusercontent.com/61483018/132592830-d93fb0cb-5a8f-4a00-95dc-8629c94de183.mov" 
+  <img src="https://i.postimg.cc/595H3qDD/bottom-navigation.gif" 
   width="170" 
   height="300"/>
-  
 </p>
+
 
 
 ## Screen Recordings
