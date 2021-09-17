@@ -15,8 +15,8 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 
 @Composable
-fun Screen2(
-    text: String
+fun Screen3(
+
 ) {
     Column(
         modifier = Modifier.fillMaxSize().padding(16.dp),
@@ -24,7 +24,7 @@ fun Screen2(
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
         Text(
-            text = text,
+            text = "Screen 3",
             style = TextStyle(color = Color.Black, fontSize = 42.sp, fontWeight = FontWeight.Black)
         )
     }
