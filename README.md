@@ -27,6 +27,10 @@ Jetpack Compose general topics. This repository contains other branches that cov
   <img src="https://i.postimg.cc/GpkFm2nT/lists.png" 
   width="170" 
   height="300"/>
+  <img src="https://user-images.githubusercontent.com/61483018/132592830-d93fb0cb-5a8f-4a00-95dc-8629c94de183.mov" 
+  width="170" 
+  height="300"/>
+  
 </p>
 
 
