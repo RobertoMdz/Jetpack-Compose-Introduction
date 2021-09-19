@@ -3,51 +3,38 @@ package com.roberthmdz.jetpackcomposeintroduction
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import androidx.compose.foundation.layout.Column
-import androidx.compose.foundation.layout.fillMaxHeight
-import androidx.compose.material.Checkbox
-import androidx.compose.material.MaterialTheme
-import androidx.compose.material.Surface
-import androidx.compose.material.Text
+import androidx.compose.material.Scaffold
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.remember
-import androidx.compose.ui.Modifier
-import androidx.compose.ui.tooling.preview.Preview
-import com.roberthmdz.jetpackcomposeintroduction.ui.theme.JetpackComposeIntroductionTheme
+import androidx.navigation.compose.rememberNavController
+import com.roberthmdz.jetpackcomposeintroduction.navigation.Destinations.*
+
+import com.roberthmdz.jetpackcomposeintroduction.navigation.NavigationHost
+import com.roberthmdz.jetpackcomposeintroduction.presentation.components.BottomNavigationBar
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-           SimpleComposable()
+            MainScreen()
         }
     }
 }
 
 @Composable
-fun SimpleComposable() {
-    val checkBoxState = remember{ mutableStateOf(false) }
+fun MainScreen() {
+    val navController = rememberNavController()
+    val navigationItems = listOf(
+        Screen1,
+        Screen2,
+        Screen3
+    )
 
-    Column(
-        modifier = Modifier.fillMaxHeight()
+    Scaffold(
+        bottomBar = {
+            BottomNavigationBar(navController = navController, items = navigationItems)
+        }
     ) {
-
-        Text(text = "Hola mundo")
-        Checkbox(
-            checked = checkBoxState.value,
-            onCheckedChange = {
-                checkBoxState.value = !checkBoxState.value
-            }
-        )
-
+        NavigationHost(navController)
     }
-
-}
-
-
-@Preview(showBackground = true, showSystemUi = true)
-@Composable
-fun DefaultPreview() {
-    SimpleComposable()
+    
 }
