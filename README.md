@@ -10,6 +10,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 6. Interoperability (linking activity and fragments with compose)
 7. Navigation Compose (passing argument)
 8. Bottom Navigation Bar
+9. Drawer Menu
 
 ## Topics Previews
 <p float="left">
