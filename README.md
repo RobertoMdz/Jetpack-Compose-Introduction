@@ -12,11 +12,6 @@ Jetpack Compose general topics. This repository contains other branches that cov
 8. Bottom Navigation Bar
 9. Navigation Drawer
 
-
-
-
-
-
 ## Topics Previews
 <p float="left">
   <img src="https://i.postimg.cc/3wM5FSs1/constraints.png" 
