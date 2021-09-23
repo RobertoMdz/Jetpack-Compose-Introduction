@@ -11,6 +11,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 7. Navigation Compose (passing argument)
 8. Bottom Navigation Bar
 9. Navigation Drawer
+10. How to show a Dialog
 
 ## Topics Previews
 <p float="left">
@@ -33,6 +34,9 @@ Jetpack Compose general topics. This repository contains other branches that cov
   width="170" 
   height="300"/>
   <img src="https://i.postimg.cc/3wGg8hh9/drawer.gif" 
+  width="170" 
+  height="300"/>
+  <img src="https://i.postimg.cc/s2rRwVGc/Dialog.png" 
   width="170" 
   height="300"/>
 </p>
