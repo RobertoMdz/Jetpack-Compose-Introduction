@@ -12,6 +12,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 8. Bottom Navigation Bar
 9. Navigation Drawer
 10. How to show a Dialog
+11. How to show a SnackBar
 
 ## Topics Previews
 <p float="left">
@@ -37,6 +38,9 @@ Jetpack Compose general topics. This repository contains other branches that cov
   width="170" 
   height="300"/>
   <img src="https://i.postimg.cc/s2rRwVGc/Dialog.png" 
+  width="170" 
+  height="300"/>
+  <img src="https://i.postimg.cc/RZyw8Zcj/SnackBar.png" 
   width="170" 
   height="300"/>
 </p>
