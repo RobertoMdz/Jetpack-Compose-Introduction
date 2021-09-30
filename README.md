@@ -48,6 +48,10 @@ Jetpack Compose general topics. This repository contains other branches that cov
   <img src="https://i.postimg.cc/vZJnY80f/typography.png" 
   width="170" 
   height="300"/>
+  <img src="https://i.postimg.cc/kXVDwpQ4/Captura-de-Pantalla-2021-09-29-a-la-s-23-05-48.png" 
+  width="170" 
+  height="300"/>
+ 
 </p>
 
 
