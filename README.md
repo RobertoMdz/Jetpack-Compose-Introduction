@@ -1,4 +1,4 @@
-# Jetpack-Compose-Introductio
+# Jetpack-Compose-Introduction
 Jetpack Compose general topics. This repository contains other branches that cover specific topics.
 
 ## Jetpack Compose Topics
