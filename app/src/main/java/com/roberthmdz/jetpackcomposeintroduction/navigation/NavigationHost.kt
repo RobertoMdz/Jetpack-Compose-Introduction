@@ -1,6 +1,7 @@
 package com.roberthmdz.jetpackcomposeintroduction.navigation
 
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.MutableState
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
@@ -13,7 +14,8 @@ import com.roberthmdz.jetpackcomposeintroduction.presentation.screens.Screen3
 
 @Composable
 fun NavigationHost(
-    navController: NavHostController
+    navController: NavHostController,
+    darkMode: MutableState<Boolean>
 ) {
 
     NavHost(navController = navController, startDestination = Screen1.route) {
@@ -32,7 +34,7 @@ fun NavigationHost(
         ) { navBackStackEntry ->
             val newText = navBackStackEntry.arguments?.getString("newText")
             requireNotNull(newText)
-            Screen2(newText)
+            Screen2(newText, darkMode)
         }
 
         composable(Screen3.route) {
