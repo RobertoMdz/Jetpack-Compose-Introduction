@@ -47,9 +47,6 @@ Jetpack Compose general topics. This repository contains other branches that cov
   <img src="https://i.postimg.cc/vZJnY80f/typography.png" 
   width="170" 
   height="300"/>
-   <img src="https://i.postimg.cc/vZJnY80f/typography.png" 
-  width="170" 
-  height="300"/>
 </p>
 
 
