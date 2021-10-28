@@ -14,7 +14,7 @@ Jetpack Compose general topics. This repository contains other branches that cov
 10. How to show a Dialog
 11. How to show a SnackBar
 12. Typography
-13. Themes
+13. Themes....
 
 ## Topics Previews
 <p float="left">
